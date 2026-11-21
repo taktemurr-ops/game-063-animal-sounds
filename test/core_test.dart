@@ -1,19 +1,19 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:game_063_animal_sounds/core/achievements.dart';
-import 'package:game_063_animal_sounds/core/clock.dart';
-import 'package:game_063_animal_sounds/core/collection.dart';
-import 'package:game_063_animal_sounds/core/daily.dart';
-import 'package:game_063_animal_sounds/core/game_rules.dart';
-import 'package:game_063_animal_sounds/core/game_session.dart';
-import 'package:game_063_animal_sounds/core/integrity.dart';
-import 'package:game_063_animal_sounds/core/level_plan.dart';
-import 'package:game_063_animal_sounds/core/missions.dart';
-import 'package:game_063_animal_sounds/core/monetization.dart';
-import 'package:game_063_animal_sounds/core/progression.dart';
-import 'package:game_063_animal_sounds/core/rng.dart';
-import 'package:game_063_animal_sounds/core/save_data.dart';
-import 'package:game_063_animal_sounds/core/save_store.dart';
-import 'package:game_063_animal_sounds/core/telemetry.dart';
+import 'package:studio_core/core/achievements.dart';
+import 'package:studio_core/core/clock.dart';
+import 'package:studio_core/core/collection.dart';
+import 'package:studio_core/core/daily.dart';
+import 'package:studio_core/core/game_rules.dart';
+import 'package:studio_core/core/game_session.dart';
+import 'package:studio_core/core/integrity.dart';
+import 'package:studio_core/core/level_plan.dart';
+import 'package:studio_core/core/missions.dart';
+import 'package:studio_core/core/monetization.dart';
+import 'package:studio_core/core/progression.dart';
+import 'package:studio_core/core/rng.dart';
+import 'package:studio_core/core/save_data.dart';
+import 'package:studio_core/core/save_store.dart';
+import 'package:studio_core/core/telemetry.dart';
 import 'package:game_063_animal_sounds/game/rules.dart';
 
 class _FailingSink implements AnalyticsSink {
